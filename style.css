@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#3F4E4F;
+}
+.container{
+    width: 90%;
+    align-items: center;
+ margin-left: 0%;
+ margin-top: 0%;
+border-color: black;
+
+}
+.container .container1{
+    background-color: #DCD7C9;
+    width: 75%;
+    border: 1px solid black;
+    margin-left: 15%;
+    margin-top: 150px;
+}
+.container .container1 .title{
+    font-size: 25px;
+  font-weight: 500;
+  position: relative;
+  padding-bottom: 20px;
+  padding-left: 20px;;
+}
+.container .container1 .section1{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 80px;
+}
+.container .container1 .section1 .input-box {
+  font-size: large;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+.container .container1 .section1 .input-box1{
+    font-size: large;
+    font-weight: 900;
+    text-transform: capitalize;  
+  }
+
+.container .container1 .section1 .input-box input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+}
+.section1 .input-box1 .radio-button{
+display: flex;
+width: 200%;
+justify-content: space-around;
+}
+
